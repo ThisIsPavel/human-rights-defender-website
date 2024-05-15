@@ -1,3 +1,2 @@
-import { f } from "./modules/module1.js";
-
-f("sdsd");
+import "./modules/slider.js";
+import "./modules/burger.js";

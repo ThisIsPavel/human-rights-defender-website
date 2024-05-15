@@ -1,4 +1,5 @@
 import svgSprite from "gulp-svg-sprite";
+import cheerio from "gulp-cheerio";
 
 const svgSprites = () => {
   return app.gulp
@@ -12,10 +13,20 @@ const svgSprites = () => {
       )
     )
     .pipe(
+      cheerio({
+        run: function ($) {
+          $("[fill]").removeAttr("fill");
+          $("[style]").removeAttr("style");
+        },
+        parserOptions: { xmlMode: true },
+      })
+    )
+    .pipe(
       svgSprite({
         mode: {
           stack: {
             sprite: `../icons/icons.svg`,
+            example: true,
           },
         },
       })

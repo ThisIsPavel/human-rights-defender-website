@@ -1,0 +1,19 @@
+$content-width: 1320px;
+$container-offset: 10px;
+$container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+$container-offset-adaptive: 69px;
+//header
+$height-header1: 52px;
+$height-header2: 110px;
+$icon-size: 1.9rem;
+// colors
+$color-white: rgb(255, 255, 255);
+$color-blue: rgb(79, 143, 240);
+$color-btn1: rgb(61, 131, 235);
+$color-btn2: rgb(230, 230, 230);
+$color-black-title: rgb(34, 34, 34);
+$color-border-services: #fff;
+$color-material-bg: rgba(79, 143, 240, 0.292);
+$color-footer-bg: rgb(34, 34, 34);
+$color-burger-menu: rgb(38, 38, 38);
+$color-footer-elem: rgb(44, 44, 44);

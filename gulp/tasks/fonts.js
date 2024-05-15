@@ -80,7 +80,7 @@ const fontsStyle = () => {
                 break;
               case "extrabold":
               case "heavy":
-                fontWeight = 700;
+                fontWeight = 900;
                 break;
               default:
                 fontWeight = 400;

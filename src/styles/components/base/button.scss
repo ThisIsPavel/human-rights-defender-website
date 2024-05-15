@@ -1,0 +1,16 @@
+.btn {
+  font-size: 14px;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  background: $color-btn1;
+  color: $color-white;
+  padding: 13px 20px;
+  border-radius: 6px;
+  transition: all 0.3s;
+  &:hover {
+    background: $color-white;
+    color: $color-blue;
+    outline: 1px solid $color-blue;
+  }
+}

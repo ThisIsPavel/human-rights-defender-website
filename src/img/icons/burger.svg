@@ -1,0 +1,11 @@
+<svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<defs>
+		<clipPath id="clip156_905">
+			<rect id="24px/menu_burger" width="24.000000" height="24.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="24px/menu_burger" width="24.000000" height="24.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip156_905)">
+		<path id="Vector" d="M3 4L21 4L21 6L3 6L3 4ZM9 11L21 11L21 13L9 13L9 11ZM3 18L21 18L21 20L3 20L3 18Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>

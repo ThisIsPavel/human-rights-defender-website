@@ -1,0 +1,11 @@
+.logo {
+    color: $color-white;
+    font-weight: 900;
+    font-size: 20px;
+    &__title {
+      display: flex;
+      color: $color-blue;
+      font-size: 28px;
+      text-transform: uppercase;
+    }
+  }

@@ -16,7 +16,7 @@ const path = {
     js: `${srcFolder}/js/*.js`,
     scss: `${srcFolder}/styles/*.scss`,
     html: `${srcFolder}/*.html`,
-    img: `${srcFolder}/img/*.{jpg,png}`,
+    img: `${srcFolder}/img/*.{jpg,png,jpeg}`,
     svg: `${srcFolder}/img/icons/*.svg`,
   },
   watch: {

@@ -1,0 +1,137 @@
+.footer {
+  width: 100%;
+  position: relative;
+  background: $color-footer-bg;
+  color: $color-white;
+  padding: 80px 0;
+  .container {
+    height: 100%;
+  }
+  &__header {
+    display: flex;
+    align-items: center;
+    gap: 170px;
+    padding-bottom: 47px;
+    border-bottom: 1px solid $color-footer-elem;
+  }
+  &__disc {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    text-transform: lowercase;
+  }
+  &__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 48px;
+  }
+  &__bottom {
+    font-size: 16px;
+    position: absolute;
+    width: 100%;
+    height: $height-header1;
+    background: rgb(1, 1, 1);
+    bottom: 0;
+    left: 0;
+    .bottom {
+      text-align: center;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+  .contacts {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    &__item {
+      display: flex;
+      height: 56px;
+    }
+    &__icon-wrapper {
+      background: $color-footer-elem;
+    }
+    &__icon {
+      fill: $color-white;
+    }
+    &__content {
+      margin-left: 24px;
+    }
+    &__title {
+      color: rgb(140, 140, 140);
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    &__disc {
+      font-weight: 700;
+    }
+  }
+  .nav {
+    &__menu {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    &__item {
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
+      :hover {
+        color: $color-blue;
+      }
+    }
+  }
+  .card {
+    font-size: 16px;
+    max-width: 420px;
+    &__wrapper {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+    }
+    &__name {
+      font-size: 20px;
+    }
+    &__disc {
+      font-size: 14px;
+      margin-top: 16px;
+      text-align: left;
+    }
+    &__btn {
+      margin-top: 24px;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .footer {
+    &__disc {
+      display: none;
+    }
+    .nav {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 675px) {
+  .footer {
+    &__header {
+      justify-content: center;
+    }
+    &__body {
+      flex-direction: column;
+    }
+    .card {
+      margin-top: 15px;
+    }
+    &__bottom {
+      .bottom {
+        flex-direction: column;
+      }
+    }
+  }
+}

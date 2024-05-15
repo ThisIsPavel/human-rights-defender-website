@@ -1,0 +1,14 @@
+.icon__wrapper {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  transition: all 0.3s;
+  .icon {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

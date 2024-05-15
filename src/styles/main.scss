@@ -1,7 +1,55 @@
-@import "./base/fonts";
-@import "./components/header";
-@import "./components/footer";
+@import "../../node_modules/slick-carousel/slick/slick.scss";
 
+@import "./base/_variables";
+@import "./base/reset";
+@import "./base/_fonts";
+
+@import "./components/logo";
+@import "./components/frame";
+@import "./components/icon";
+@import "./components/burger";
+
+@import "./components/base/button";
+@import "./components/base/secondary-btn";
+@import "./components/base/title";
+@import "./components/base/secondary-title";
+@import "./components/base/subtitle";
+
+@import "./components/sections/header";
+@import "./components/sections/footer";
+@import "./components/sections/hero";
+@import "./components/sections/services";
+@import "./components/sections/history";
+@import "./components/sections/staff";
+@import "./components/sections/feedback";
+@import "./components/sections/materials";
+html {
+  font-size: 10px;
+}
 body {
-  box-sizing: border-box;
+  font-family: NunitoSans;
+}
+.main {
+  color: $color-black-title;
+}
+.container {
+  margin: 0 auto;
+  padding: 0 $container-offset;
+  max-width: $content-width;
+}
+@media (max-width: 1024px) {
+  .container {
+    padding: 0 $container-offset-adaptive;
+  }
+}
+@media (max-width: 675px) {
+  html {
+    font-size: 8.5px;
+  }
+}
+
+@media (max-width: 514px) {
+  .container {
+    padding: 0 $container-offset;
+  }
 }

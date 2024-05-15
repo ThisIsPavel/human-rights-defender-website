@@ -13,6 +13,7 @@
     "del": "^7.1.0",
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^9.0.0",
+    "gulp-cheerio": "^1.0.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-file-include": "^2.3.0",
     "gulp-fonter": "^0.3.0",
@@ -28,7 +29,11 @@
     "gulp-svg-sprite": "^2.0.3",
     "gulp-ttf2woff2": "^4.0.1",
     "gulp-webp": "^5.0.0",
+    "jquery": "^3.7.1",
     "sass": "^1.75.0",
     "webpack-stream": "^7.0.0"
+  },
+  "dependencies": {
+    "slick-carousel": "^1.8.1"
   }
 }

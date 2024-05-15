@@ -1,0 +1,36 @@
+.corner {
+  position: absolute;
+  background: none;
+  height: 35px;
+  width: 35px;
+}
+#top-left,
+#top-right,
+#bottom-right,
+#bottom-left {
+  transition: all 0.3s;
+}
+#top-left {
+  top: 0;
+  left: 0;
+  border-top: 2px solid $color-border-services;
+  border-left: 2px solid $color-border-services;
+}
+#top-right {
+  top: 0;
+  right: 0;
+  border-top: 2px solid $color-border-services;
+  border-right: 2px solid $color-border-services;
+}
+#bottom-right {
+  bottom: 0;
+  right: 0;
+  border-bottom: 2px solid $color-border-services;
+  border-right: 2px solid $color-border-services;
+}
+#bottom-left {
+  bottom: 0;
+  left: 0;
+  border-bottom: 2px solid $color-border-services;
+  border-left: 2px solid $color-border-services;
+}

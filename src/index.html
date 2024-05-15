@@ -8,13 +8,17 @@
     <title>Страница</title>
   </head>
   <body>
-    @@include('blocks/header.html')
-    <div>
-      <img src="./img/1.webp" alt="sd" />
-    </div>
-    @@include('blocks/footer.html')
-    <svg>
-      <use href="./img/icons/icons.svg#ic2"></use>
-    </svg>
+    @@include('partials/header.html')
+    <main class="main">
+      @@include('partials/hero.html')
+      <div class="container">
+        @@include('partials/services.html')
+        @@include('partials/history.html')
+        @@include('partials/staff.html')
+      </div>
+      @@include('partials/feedback.html')
+      <div class="container">@@include('partials/materials.html')</div>
+    </main>
+    @@include('partials/footer.html')
   </body>
 </html>
