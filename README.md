@@ -17,7 +17,7 @@
 ### Запустить проект:
 1. Скачать репозиторий
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/ThisIsPavel/human-rights-defender-website.git
    ```
 2. Установить NPM-пакеты
    ```sh
